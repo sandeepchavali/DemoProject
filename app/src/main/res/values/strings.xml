@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoogleplusloginDemo</string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_next">Procced for next</string>
+
+</resources>

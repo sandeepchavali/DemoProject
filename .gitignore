@@ -8,3 +8,11 @@
 /build
 /captures
 *.iml
+app/build/
+app/libs/
+app/src/main/java/com/GoogleplusloginDemo/controller/
+app/src/main/java/com/GoogleplusloginDemo/model/
+build/
+libs/
+src/main/java/com/GoogleplusloginDemo/controller/
+src/main/java/com/GoogleplusloginDemo/model/

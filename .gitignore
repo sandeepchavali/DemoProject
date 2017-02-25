@@ -16,3 +16,4 @@ build/
 libs/
 src/main/java/com/GoogleplusloginDemo/controller/
 src/main/java/com/GoogleplusloginDemo/model/
+.idea

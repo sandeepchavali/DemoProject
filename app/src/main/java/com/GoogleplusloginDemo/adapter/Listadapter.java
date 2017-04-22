@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GoogleplusloginDemo.R;
@@ -65,12 +66,14 @@ public class Listadapter extends RecyclerView.Adapter<Listadapter.ViewHolder> {
 
         TextView name, enddate;
         ProfileImageView logo;
-
+ImageView add,sub;
 
         public ViewHolder(View itemView) {
             super(itemView);
             name = (TextView) itemView.findViewById(R.id.name);
             enddate = (TextView) itemView.findViewById(R.id.end_date);
+            add= (ImageView) itemView.findViewById(R.id.add_item);
+            sub= (ImageView) itemView.findViewById(R.id.remove_item);
 
             logo = (ProfileImageView) itemView.findViewById(R.id.profile_icon);
 

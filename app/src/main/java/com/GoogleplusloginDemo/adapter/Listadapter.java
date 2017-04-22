@@ -63,7 +63,8 @@ public class Listadapter extends RecyclerView.Adapter<Listadapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name, enddate;
+        TextView name,
+                enddate;
         ProfileImageView logo;
 
 

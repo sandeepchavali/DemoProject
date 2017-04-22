@@ -38,6 +38,7 @@ public class Secondscreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_secondscreen);
         dialog = new Dialog(Secondscreen.this);
+
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
